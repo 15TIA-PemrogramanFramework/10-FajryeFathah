@@ -60,7 +60,7 @@
                 <td><?php echo $value->website; ?></td>
                 <td><?php echo $value->comment; ?></td>
                 <td>
-                  <?php echo anchor(site_url('user/delete/'.$value->id),
+                  <?php echo anchor(site_url('user_owner/delete/'.$value->id),
           '<i class="fa fa-trash"></i>',
           'class="btn btn-danger"'); ?>
                 </td>
